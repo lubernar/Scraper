@@ -17,6 +17,5 @@ axios(url)
 			});
 		});
 		const artistsNamesJson = JSON.stringify(artistsNames);
-		console.log(artistsNamesJson);
 	})
 	.catch(console.error);
